@@ -1,0 +1,17 @@
+{
+  "name": "birth_date_by_narratnasuri",
+  "version": "1.0.0",
+  "description": "API Scheduler for messaging",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "export DEV=true && nodemon index.js"
+  },
+  "dependencies": {
+    "expressjs": "^1.0.1",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.14",
+    "mysql-promise": "^5.0.0",
+    "serverless-http": "^2.7.0"
+  }
+}
