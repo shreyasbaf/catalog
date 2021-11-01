@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "export DEV=true && node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "expressjs": "^1.0.1",
